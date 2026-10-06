@@ -1,1 +1,94 @@
-# that-guy937.github.io
+<!DOCTYPE html>
+
+<html data-theme="dark">
+    <head>
+        <style>
+            body { background-image: url("background.png"); }
+            :root {
+                font-family: 'Segoe UI', sans-serif;
+                overflow: hidden;
+            }
+
+            .pfp {
+                border-radius: 100%;
+                width: 100px;
+                cursor: not-allowed;
+                transition-duration: 0.25s;
+            }
+
+            .pfp:active {
+                rotate: 180deg;
+                scale: 1.25;
+            }
+
+            .moverght {
+                position: absolute;
+                left: 2px;
+            }
+        </style>
+        <link rel="stylesheet" href="https://unpkg.com/7.css">
+    </head>
+    <body>
+        <div class="window glass active" style="max-width: 100%; margin: 0 1.5em; --w7-w-bg: #fc0;">
+            <div class="title-bar">
+                <div class="title-bar-text">About Me</div>
+                <div class="title-bar-controls">
+                    <button aria-label="Close" aria-describedby="helpballoon"></button>
+                </div>
+            </div>
+            <div class="window-body has-space"><img class="pfp" src="pfp.png"/>
+                <h1 class="pfp-label">not that guy</h1>
+                <br>
+                <label class="pfp-sublabel">
+                    your typical programmer and gamer
+                    <br>
+                    he ∘ him
+                    <br>
+                    minecrafter ∘ blender user ∘ i kinda like the windows aero look
+                    <br>
+                    pls play modernbeta its such a good minecraft smp
+                    <table>
+                        <thead>
+                            <tr>
+                                <th class="tableheader" scope="col">Version Range</th>
+                                <th class="tableheader" scope="col">Activity</th>
+                                <th class="tableheader" scope="col">Community Scale</th>
+                                <th class="tableheader" scope="col">Discord Server</th>
+                                <th class="tableheader" scope="col">IP</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th class="tableheaderTWO" scope="col">b1.7.3 OR 1.20.1 - 26.1<sup>[1]</sup></th>
+                                <th class="tableheaderTWO" scope="col">High</th>
+                                <th class="tableheaderTWO" scope="col">Large</th>
+                                <th class="tableheaderTWO" scope="col">discord.modernbeta.org</th>
+                                <th class="tableheaderTWO" scope="col">beta.modernbeta.org for beta clients, play.modernbeta.org for modern clients</th>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <br>
+                    <h1>my "work"</h1>
+                    <hr>
+                    i have a variety of different projects and interests, such interests include chemistry, programming, and figuring out why the heck sable keeps crashing
+                    <br>
+                    such projects include:
+                    <br>
+                    ∘ mineRAFT: bringing the world of raft to the equally as cool world of minecraft through a passthrough mod
+                    <br>
+                    ∘ DFOTH (dirt fights on the heights): a stupid, somewhat fun, unfinished roblox game where you pick up dirt off the ground and throw it!
+                    <br>
+                    ∘ Sentence: a private, never-to-be-released horrible clone of microsoft word, based on the windows aero aesthetic. oh also it only exports rtf :/
+                    <h1>notes</h1>
+                    <hr>
+                    [1]: i dunno if this is true lol
+                    <h1>thank yous</h1>
+                    <hr>
+                    <a href="https://khang-nd.github.io/7.css">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="88" height="20" role="img" aria-label="made with 7.css"><title>npm: v0.21.1</title><filter id="blur"><feGaussianBlur stdDeviation="16"/></filter><linearGradient id="s" x2="0" y2="100%"><stop offset="0" stop-color="#bbb" stop-opacity=".1"/><stop offset="1" stop-opacity=".1"/></linearGradient><clipPath id="r"><rect width="88" height="20" rx="3"/></clipPath><g clip-path="url(#r)"><rect width="35" height="20" fill="#555"/><rect x="35" width="53" height="20" fill="#4580ff"/><rect width="88" height="20" fill="url(#s)"/></g><g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" text-rendering="geometricPrecision" font-size="110"><g transform="scale(.1)"><g aria-hidden="true" fill="#010101"><text x="185" y="150" fill-opacity=".8" filter="url(#blur)" textLength="250">with</text><text x="185" y="150" fill-opacity=".3" textLength="250">with</text></g><text x="185" y="140" textLength="250">with</text></g><g transform="scale(.1)"><g aria-hidden="true" fill="#010101"><text x="605" y="150" fill-opacity=".8" filter="url(#blur)" textLength="430">7.css</text><text x="605" y="150" fill-opacity=".3" textLength="430">7.css</text></g><text x="605" y="140" textLength="430">7.css</text></g></g></svg>
+                    </a>
+                </label>
+            </div>
+        </div>
+    </body>
+</html>
